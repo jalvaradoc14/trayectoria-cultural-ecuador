@@ -44,24 +44,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
-
-4. **Commit changes**
-
----
-
-## **🔍 DIFERENCIAS CLAVE:**
-
-**Workflow original (que vas a borrar):**
-- ❌ No instala Node.js
-- ❌ No ejecuta npm install
-- ❌ No hace build
-- ❌ Sube toda la carpeta (.) en vez de /dist
-
-**Workflow nuevo (que vas a pegar):**
-- ✅ Instala Node.js 20
-- ✅ Ejecuta npm ci (instala dependencias)
-- ✅ Ejecuta npm run build (compila tu proyecto Vite)
-- ✅ Sube solo la carpeta /dist (resultado compilado)
-
----
