@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Map, Gamepad2, Share2, Trophy, ExternalLink, BookOpen, X } from 'lucide-react';
-import fiestasMap from '../assets/fiestas de Ecuador.png';
+import fiestasMap from '../assets/fiestas_de_ecuador.png'; // Asegúrate de que el archivo se llame así
 
 const DigitalProposal: React.FC = () => {
   const [isMapOpen, setIsMapOpen] = useState(false);
